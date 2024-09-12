@@ -1,6 +1,6 @@
 window.clAppConfig = Object.assign(
   {
-    domain: 'commercelayer.io'
+    domain: "commercelayer.co"
   },
   window.clAppConfig
 )
