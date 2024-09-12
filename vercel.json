@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm build:apps && node packages/app-builder/preview-link-stg.js",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/:appSlug/(.*)",
+      "destination": "/:appSlug/index.html"
+    }
+  ]
+}
